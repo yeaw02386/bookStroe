@@ -81,64 +81,64 @@
             <Font size="30.0" />
          </font>
       </Button>
-      <Group fx:id="tag_G" layoutX="769.0" layoutY="40.0">
+      <Group fx:id="tag_G" layoutX="767.0" layoutY="40.0">
          <children>
-            <CheckBox fx:id="general_T" mnemonicParsing="false" prefHeight="34.0" prefWidth="118.0" selected="true" text="general">
+            <CheckBox fx:id="general_T" mnemonicParsing="false" onAction="#searchBook" prefHeight="34.0" prefWidth="118.0" selected="true" text="Fiction">
                <font>
                   <Font size="15.0" />
                </font>
             </CheckBox>
-            <CheckBox fx:id="religion_T" layoutX="118.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="118.0" selected="true" text="religion">
+            <CheckBox fx:id="religion_T" layoutX="118.0" mnemonicParsing="false" onAction="#searchBook" prefHeight="34.0" prefWidth="118.0" selected="true" text="General">
                <font>
                   <Font size="15.0" />
                </font>
             </CheckBox>
-            <CheckBox fx:id="society_T1" layoutX="236.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="118.0" selected="true" text="society">
+            <CheckBox fx:id="society_T1" layoutX="236.0" mnemonicParsing="false" onAction="#searchBook" prefHeight="34.0" prefWidth="118.0" selected="true" text="Economics">
                <font>
                   <Font size="15.0" />
                </font>
             </CheckBox>
-            <CheckBox fx:id="language_T" layoutX="354.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="118.0" selected="true" text="language">
+            <CheckBox fx:id="language_T" layoutX="354.0" mnemonicParsing="false" onAction="#searchBook" prefHeight="34.0" prefWidth="118.0" selected="true" text="Business">
                <font>
                   <Font size="15.0" />
                </font>
             </CheckBox>
-            <CheckBox fx:id="science_T" layoutY="50.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="118.0" selected="true" text="science">
+            <CheckBox fx:id="science_T" layoutY="50.0" mnemonicParsing="false" onAction="#searchBook" prefHeight="34.0" prefWidth="118.0" selected="true" text="Mystery">
                <font>
                   <Font size="15.0" />
                </font>
             </CheckBox>
-            <CheckBox fx:id="technology_T" layoutX="118.0" layoutY="50.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="118.0" selected="true" text="technology">
+            <CheckBox fx:id="technology_T" layoutX="118.0" layoutY="50.0" mnemonicParsing="false" onAction="#searchBook" prefHeight="34.0" prefWidth="118.0" selected="true" text="Thrillers">
                <font>
                   <Font size="15.0" />
                </font>
             </CheckBox>
-            <CheckBox fx:id="art_T" layoutX="236.0" layoutY="50.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="118.0" selected="true" text="art">
+            <CheckBox fx:id="art_T" layoutX="236.0" layoutY="50.0" mnemonicParsing="false" onAction="#searchBook" prefHeight="34.0" prefWidth="118.0" selected="true" text="Comics">
                <font>
                   <Font size="15.0" />
                </font>
             </CheckBox>
-            <CheckBox fx:id="literature_T" layoutX="354.0" layoutY="50.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="118.0" selected="true" text="literature">
+            <CheckBox fx:id="literature_T" layoutX="354.0" layoutY="50.0" mnemonicParsing="false" onAction="#searchBook" prefHeight="34.0" prefWidth="118.0" selected="true" text="Self-help">
                <font>
                   <Font size="15.0" />
                </font>
             </CheckBox>
-            <CheckBox fx:id="history_T" layoutY="98.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="118.0" selected="true" text="history">
+            <CheckBox fx:id="history_T" layoutY="98.0" mnemonicParsing="false" onAction="#searchBook" prefHeight="34.0" prefWidth="118.0" selected="true" text="Psychology">
                <font>
                   <Font size="15.0" />
                </font>
             </CheckBox>
-            <CheckBox fx:id="anime_T" layoutX="118.0" layoutY="98.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="118.0" selected="true" text="anime">
+            <CheckBox fx:id="anime_T" layoutX="118.0" layoutY="98.0" mnemonicParsing="false" onAction="#searchBook" prefHeight="34.0" prefWidth="118.0" selected="true" text="Success">
                <font>
                   <Font size="15.0" />
                </font>
             </CheckBox>
-            <CheckBox fx:id="cooking_T" layoutX="236.0" layoutY="98.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="118.0" selected="true" text="cooking">
+            <CheckBox fx:id="cooking_T" layoutX="236.0" layoutY="98.0" mnemonicParsing="false" onAction="#searchBook" prefHeight="34.0" prefWidth="118.0" selected="true" text="Computers">
                <font>
                   <Font size="15.0" />
                </font>
             </CheckBox>
-            <CheckBox fx:id="weapon_T" layoutX="354.0" layoutY="98.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="118.0" selected="true" text="weapon">
+            <CheckBox fx:id="weapon_T" layoutX="354.0" layoutY="98.0" mnemonicParsing="false" onAction="#searchBook" prefHeight="34.0" prefWidth="118.0" selected="true" text="Cozy">
                <font>
                   <Font size="15.0" />
                </font>

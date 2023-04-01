@@ -57,10 +57,11 @@ public class Book implements Data {
     }
 
     public boolean filterNameAndTag(String data, ArrayList<Tag> tags) {
-        name = name.toLowerCase();
-        data = data.toLowerCase();
+        String nl = name.toLowerCase();
+        String dl = data.toLowerCase();
+
         boolean t = tags.containsAll(tag);
-        boolean n = this.name.contains(data);
+        boolean n = nl.contains(dl);
         return t && n;
     }
 

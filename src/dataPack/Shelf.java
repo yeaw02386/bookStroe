@@ -6,9 +6,9 @@ import LibPack.CVLib;
 
 public class Shelf {
     private ArrayList<Book> allBook = new ArrayList<Book>();
-    private String[] defTag = { "general", "religion", "society", "language", "science",
-            "technology", "art", "literature", "history", "anime",
-            "cooking", "weapon" };
+    private String[] defTag = {"Fiction","General","Economics","Business",
+                            "Mystery","Thrillers","Comics","Self-help","Psychology","Success"
+                            ,"Computers","Cozy"};
     private ArrayList<Tag> tags;;
 
     public Shelf() {
