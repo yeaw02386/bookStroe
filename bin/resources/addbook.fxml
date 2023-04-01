@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" style="-fx-background-color: F6E1C3;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AddBookControl">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#b46060" height="720.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="279.0" />
+      <Button fx:id="home_B" alignment="CENTER" layoutX="63.0" layoutY="78.0" mnemonicParsing="false" onAction="#toHomePage" prefHeight="52.0" prefWidth="153.0" style="-fx-background-color: F6E1C3;" text="Home">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="search_B" alignment="CENTER" layoutX="63.0" layoutY="153.0" mnemonicParsing="false" onAction="#toSearchPage" prefHeight="52.0" prefWidth="153.0" style="-fx-background-color: F6E1C3;" text="Search">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="logout_B" layoutX="100.0" layoutY="665.0" mnemonicParsing="false" onAction="#toLoginPage" prefWidth="79.0" style="-fx-background-color: F6E1C3;" text="Logout">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="Newbook_B" alignment="CENTER" layoutX="63.0" layoutY="334.0" mnemonicParsing="false" onAction="#adminGo" prefHeight="52.0" prefWidth="153.0" style="-fx-background-color: F6E1C3;" text="New Book">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Label layoutX="391.0" layoutY="156.0" prefHeight="46.0" prefWidth="93.0" text="Name">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <TextField fx:id="name_newbook" layoutX="473.0" layoutY="153.0" prefHeight="52.0" prefWidth="188.0">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </TextField>
+      <Label layoutX="405.0" layoutY="263.0" prefHeight="46.0" prefWidth="93.0" text="Price">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <TextField fx:id="price_newbook" layoutX="474.0" layoutY="266.0" prefHeight="52.0" prefWidth="188.0" text="0.0">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </TextField>
+      <Label layoutX="359.0" layoutY="321.0" prefHeight="46.0" prefWidth="125.0" text="Amount">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <TextField fx:id="amount_newbook" layoutX="474.0" layoutY="318.0" prefHeight="52.0" prefWidth="188.0" text="0">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </TextField>
+      <Label layoutX="672.0" layoutY="269.0" prefHeight="46.0" prefWidth="93.0" text="Coin">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="498.0" layoutY="392.0" prefHeight="46.0" prefWidth="64.0" text="Tag">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Group fx:id="tag_G" layoutX="560.0" layoutY="397.0">
+         <children>
+            <CheckBox fx:id="general_T" mnemonicParsing="false" prefHeight="34.0" prefWidth="118.0" text="general">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </CheckBox>
+            <CheckBox fx:id="religion_T" layoutX="118.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="118.0" text="religion">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </CheckBox>
+            <CheckBox fx:id="society_T" layoutX="236.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="118.0" text="society">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </CheckBox>
+            <CheckBox fx:id="language_T" layoutX="354.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="118.0" text="language">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </CheckBox>
+            <CheckBox fx:id="science_T" layoutY="50.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="118.0" text="science">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </CheckBox>
+            <CheckBox fx:id="technology_T" layoutX="118.0" layoutY="50.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="118.0" text="technology">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </CheckBox>
+            <CheckBox fx:id="art_T" layoutX="236.0" layoutY="50.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="118.0" text="art">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </CheckBox>
+            <CheckBox fx:id="literature_T" layoutX="354.0" layoutY="50.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="118.0" text="literature">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </CheckBox>
+            <CheckBox fx:id="history_T" layoutY="98.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="118.0" text="history">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </CheckBox>
+            <CheckBox fx:id="anime_T" layoutX="118.0" layoutY="98.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="118.0" text="anime">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </CheckBox>
+            <CheckBox fx:id="cooking_T" layoutX="236.0" layoutY="98.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="118.0" text="cooking">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </CheckBox>
+            <CheckBox fx:id="weapon_T" layoutX="354.0" layoutY="98.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="118.0" text="weapon">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </CheckBox>
+         </children>
+      </Group>
+      <Button fx:id="Add_B" alignment="CENTER" layoutX="1061.0" layoutY="564.0" mnemonicParsing="false" onAction="#addBook" prefHeight="52.0" prefWidth="86.0" style="-fx-background-color: #e9a178;" text="Add">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Label fx:id="err_price" layoutX="748.0" layoutY="277.0" prefHeight="36.0" prefWidth="140.0" text="input number only." textFill="RED" visible="false">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="err_amount" layoutX="678.0" layoutY="326.0" prefHeight="36.0" prefWidth="140.0" text="input number only." textFill="RED" visible="false">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="succ_addBook" layoutX="1061.0" layoutY="616.0" prefHeight="46.0" prefWidth="188.0" text="Add new Book success!!" textFill="#299054" visible="false">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="err_name" layoutX="672.0" layoutY="161.0" prefHeight="36.0" prefWidth="140.0" text="Invaild name" textFill="RED" visible="false">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="437.0" layoutY="214.0" prefHeight="46.0" prefWidth="93.0" text="ID">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <TextField fx:id="id_T" layoutX="473.0" layoutY="211.0" prefHeight="52.0" prefWidth="188.0">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </TextField>
+      <Label fx:id="err_id" layoutX="672.0" layoutY="219.0" prefHeight="36.0" prefWidth="217.0" text="Invaild id or id already exists" textFill="RED" visible="false">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="err_addBook" layoutX="1061.0" layoutY="616.0" prefHeight="46.0" prefWidth="188.0" text="Book already exist" textFill="#cd0000" visible="false">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="err_tag" layoutX="554.0" layoutY="539.0" prefHeight="41.0" prefWidth="188.0" text="must have at least 1 tag" textFill="RED" visible="false">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Group fx:id="user_G" layoutX="35.0" layoutY="448.0">
+         <children>
+            <Rectangle arcHeight="10.0" arcWidth="5.0" fill="#e9a178" height="210.0" stroke="BLACK" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeMiterLimit="100.0" strokeType="INSIDE" width="217.0" />
+            <Label fx:id="coin" layoutX="101.0" layoutY="82.0" prefHeight="30.0" prefWidth="79.0" text="00.00">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="37.0" layoutY="82.0" prefHeight="30.0" prefWidth="64.0" text="Coin : ">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="username_L" alignment="CENTER" layoutX="7.0" layoutY="7.0" prefHeight="43.0" prefWidth="195.0" text="Name" textAlignment="CENTER">
+               <font>
+                  <Font size="29.0" />
+               </font>
+            </Label>
+            <Button fx:id="topUp_B" layoutX="62.0" layoutY="150.0" mnemonicParsing="false" onAction="#topUpCoin" prefWidth="79.0" style="-fx-background-color: F6E1C3;" text="Top up">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </Group>
+      <Button fx:id="borrow_B" alignment="CENTER" layoutX="37.0" layoutY="228.0" mnemonicParsing="false" onAction="#toReturnBookPage" prefHeight="65.0" prefWidth="206.0" style="-fx-background-color: F6E1C3;" text="Book return">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Label layoutX="387.0" layoutY="22.0" prefHeight="65.0" prefWidth="335.0" text="Add new Book">
+         <font>
+            <Font name="System Bold" size="43.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

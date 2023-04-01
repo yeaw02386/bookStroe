@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" style="-fx-background-color: F6E1C3;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ReturnBook">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#b46060" height="720.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="279.0" />
+      <Label layoutX="385.0" layoutY="148.0" prefHeight="36.0" prefWidth="142.0" text="Rent order">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <TextField fx:id="day_return" layoutX="444.0" layoutY="350.0" prefHeight="44.0" prefWidth="79.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <Label layoutX="393.0" layoutY="350.0" prefHeight="36.0" prefWidth="72.0" text="Day">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="err_day" layoutX="424.0" layoutY="401.0" prefHeight="21.0" prefWidth="136.0" text="more than 1 day." textFill="RED" visible="false">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Group fx:id="cost_G" layoutX="771.0" layoutY="-13.0">
+         <children>
+            <Rectangle arcHeight="20.0" arcWidth="5.0" fill="#b46060" height="547.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="366.0" />
+            <Label fx:id="bookname_L" alignment="CENTER" layoutX="27.0" layoutY="35.0" prefHeight="90.0" prefWidth="317.0" text="BOOK NAME " textFill="WHITE">
+               <font>
+                  <Font size="35.0" />
+               </font>
+            </Label>
+            <Label fx:id="coin_L" alignment="CENTER" layoutX="71.0" layoutY="453.0" prefHeight="90.0" prefWidth="134.0" text="00.00" textFill="WHITE">
+               <font>
+                  <Font size="35.0" />
+               </font>
+            </Label>
+            <Label fx:id="bookname_L2" alignment="CENTER" layoutX="195.0" layoutY="453.0" prefHeight="90.0" prefWidth="115.0" text="Coin" textFill="WHITE">
+               <font>
+                  <Font size="35.0" />
+               </font>
+            </Label>
+            <Label fx:id="id_L" alignment="CENTER" layoutX="21.0" layoutY="93.0" prefHeight="46.0" prefWidth="311.0" text="ID" textFill="WHITE">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <Button fx:id="return_B" alignment="CENTER" layoutX="104.0" layoutY="584.0" mnemonicParsing="false" onAction="#bookReturn" prefHeight="52.0" prefWidth="153.0" style="-fx-background-color: #e9a178;" text="Return">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Button>
+            <Label fx:id="day_L" alignment="CENTER" layoutX="126.0" layoutY="236.0" prefHeight="55.0" prefWidth="101.0" text="1" textFill="WHITE">
+               <font>
+                  <Font size="35.0" />
+               </font>
+            </Label>
+            <Label fx:id="bookname_L21" alignment="CENTER" layoutX="201.0" layoutY="218.0" prefHeight="90.0" prefWidth="115.0" text="Day" textFill="WHITE">
+               <font>
+                  <Font size="35.0" />
+               </font>
+            </Label>
+            <Label fx:id="bookname_L211" alignment="CENTER" layoutX="27.0" layoutY="235.0" prefHeight="57.0" prefWidth="114.0" text="Rent" textFill="WHITE">
+               <font>
+                  <Font size="35.0" />
+               </font>
+            </Label>
+            <Label fx:id="perday_L" alignment="CENTER" layoutX="137.0" layoutY="309.0" prefHeight="55.0" prefWidth="84.0" text="1" textFill="WHITE">
+               <font>
+                  <Font size="35.0" />
+               </font>
+            </Label>
+            <Label fx:id="bookname_L212" alignment="CENTER" layoutX="207.0" layoutY="292.0" prefHeight="90.0" prefWidth="136.0" text="PerDay" textFill="WHITE">
+               <font>
+                  <Font size="35.0" />
+               </font>
+            </Label>
+            <Label fx:id="bookname_L2111" alignment="CENTER" layoutX="28.0" layoutY="311.0" prefHeight="37.0" prefWidth="102.0" text="Cost" textFill="WHITE">
+               <font>
+                  <Font size="35.0" />
+               </font>
+            </Label>
+            <Label fx:id="err_return" prefHeight="21.0" prefWidth="136.0" text="not enough money" textFill="RED" visible="false">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="bookname_L21111" layoutX="33.0" layoutY="382.0" prefHeight="51.0" prefWidth="302.0" text="service   10  Coin" textFill="WHITE">
+               <font>
+                  <Font size="35.0" />
+               </font>
+            </Label>
+            <Label fx:id="idRent_L" layoutX="116.0" layoutY="148.0" prefHeight="46.0" prefWidth="253.0" text="idrent" textFill="WHITE">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <Label fx:id="bookname_L2112" alignment="CENTER" layoutX="-10.0" layoutY="150.0" prefHeight="41.0" prefWidth="140.0" text="Rent ID :" textFill="WHITE">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Label>
+         </children>
+      </Group>
+      <ComboBox fx:id="rent_C" layoutX="381.0" layoutY="199.0" prefHeight="36.0" prefWidth="206.0" />
+      <Button fx:id="home_B" alignment="CENTER" layoutX="53.0" layoutY="51.0" mnemonicParsing="false" onAction="#toHomePage" prefHeight="52.0" prefWidth="153.0" style="-fx-background-color: F6E1C3;" text="Home">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="search_B" alignment="CENTER" layoutX="53.0" layoutY="126.0" mnemonicParsing="false" onAction="#toSearchPage" prefHeight="52.0" prefWidth="153.0" style="-fx-background-color: F6E1C3;" text="Search">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button layoutX="90.0" layoutY="638.0" mnemonicParsing="false" onAction="#toLoginPage" prefWidth="79.0" style="-fx-background-color: F6E1C3;" text="Logout">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Group fx:id="user_G" layoutX="25.0" layoutY="421.0">
+         <children>
+            <Rectangle arcHeight="10.0" arcWidth="5.0" fill="#e9a178" height="210.0" stroke="BLACK" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeMiterLimit="100.0" strokeType="INSIDE" width="217.0" />
+            <Label fx:id="coin" layoutX="101.0" layoutY="82.0" prefHeight="30.0" prefWidth="79.0" text="00.00">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="37.0" layoutY="82.0" prefHeight="30.0" prefWidth="64.0" text="Coin : ">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="username_L" alignment="CENTER" layoutX="7.0" layoutY="7.0" prefHeight="43.0" prefWidth="195.0" text="Name" textAlignment="CENTER">
+               <font>
+                  <Font size="29.0" />
+               </font>
+            </Label>
+            <Button fx:id="topUp_B" layoutX="62.0" layoutY="150.0" mnemonicParsing="false" onAction="#topUpCoin" prefWidth="79.0" style="-fx-background-color: F6E1C3;" text="Top up">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </Group>
+      <Button fx:id="Newbook_B" alignment="CENTER" layoutX="53.0" layoutY="307.0" mnemonicParsing="false" onAction="#adminGo" prefHeight="52.0" prefWidth="153.0" style="-fx-background-color: F6E1C3;" text="New Book">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="borrow_B" alignment="CENTER" layoutX="27.0" layoutY="203.0" mnemonicParsing="false" onAction="#toReturnBookPage" prefHeight="65.0" prefWidth="206.0" style="-fx-background-color: F6E1C3;" text="Book return">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="ok_B" alignment="CENTER" layoutX="441.0" layoutY="461.0" mnemonicParsing="false" onAction="#showCost" prefHeight="65.0" prefWidth="102.0" style="-fx-background-color: #e9a178;" text="OK">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Label fx:id="err_rent" layoutX="433.0" layoutY="243.0" prefHeight="25.0" prefWidth="102.0" text="Choose rent" textFill="RED" visible="false">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="succ_return" layoutX="889.0" layoutY="643.0" prefHeight="21.0" prefWidth="136.0" text="Return succeed" textFill="#00ff88" visible="false">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

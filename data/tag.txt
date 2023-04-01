@@ -1,0 +1,12 @@
+general
+religion
+society
+language
+science
+technology
+art
+literature
+history
+anime
+cooking
+weapon
