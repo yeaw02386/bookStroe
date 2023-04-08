@@ -54,7 +54,7 @@ public class LoginControl extends GobalContro {
 
 		stateAdmin = true;
 		dataLib.sendData(shelf, user);
-		Parent root = FXMLLoader.load(getClass().getResource("/resources/addbook.fxml"));
+		Parent root = FXMLLoader.load(getClass().getResource("/resources/home.fxml"));
 		dataLib.setScene(e, root);
 	}
 

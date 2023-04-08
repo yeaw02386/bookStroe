@@ -5,7 +5,7 @@ Shattered Bonds;285.97;9780399587993;5;Fiction:;
 10 Ways to be annoying;40.27;9781526012487;5;General:;
 A Trace of Vice (a Keri Locke Mystery--Book #3);170.16;9781640290112;5;Fiction:Mystery:General:;
 Find Me: A TOP TEN SUNDAY TIMES BESTSELLER;383.23;9780571356515;5;Fiction:General:;
-Blood Runs Cold: A completely unputdownable mystery and suspense thriller;101.9;9781786814029;5;Fiction:Mystery:;
+Blood Runs Cold: A completely unputdownable mystery and suspense thriller;101.9;9781786814029;4;Fiction:Mystery:;
 It;178.62;9781501141232;5;Fiction:;
 'Salem's Lot;500.86;9781848940819;5;Fiction:General:;
 Young Justice Vol. 1;357.6;9781401244378;5;Comics:;
@@ -266,7 +266,7 @@ W is for Wasted: A Kinsey Millhone Novel;357.6;9781101636459;5;Fiction:Thrillers
 Little Girl Lost: A Lucy Black Thriller;322.15;9780062336583;5;Fiction:Mystery:;
 Riley Paige Mystery Bundle: Once Gone (#1) and Once Taken (#2);135.99;9781632917072;5;Fiction:Mystery:General:;
 One Small Step Can Change Your Life: The Kaizen Way;356.24;9780761181347;5;Business:Economics:;
-The Malady and Other Stories: An Andrzej Sapkowski Sampler;35.45;9781473202993;5;Fiction:;
+The Malady and Other Stories: An Andrzej Sapkowski Sampler;35.45;9781473202993;4;Fiction:;
 Eeny Meeny: DI Helen Grace 1;383.23;9781405914895;5;Fiction:Mystery:General:;
 The Hitchhiker's Guide to the Galaxy: 42nd Anniversary Edition;295.52;9780330513081;5;Fiction:General:;
 Introducing Critical Theory: A Graphic Guide;212.71;9781840469097;5;General:;
@@ -396,3 +396,4 @@ The Weight of Honor (Kings and Sorcerers--Book 3);170.16;9781632913296;5;Fiction
 Night of the Bold (Kings and Sorcerers--Book 6);204.25;9781632914965;5;Fiction:;
 Mistborn Trilogy: The Final Empire, The Well of Ascension, The Hero of Ages;601.03;9781429989817;5;Fiction:;
 Dark Matter: A Novel;260.06;9781101904237;5;Fiction:;
+Horny Police;69420.0;69420;69420;Fiction:Success:;

@@ -1,5 +1,7 @@
 package controller;
 
+import java.io.IOException;
+
 import LibPack.dataLib;
 import dataPack.Book;
 import dataPack.Holder;
@@ -101,4 +103,9 @@ public class BookPageControl extends GobalContro {
         }
     }
 
+    @FXML
+    public void delBook(Event e) throws IOException{
+        shelf.getBooks().remove(book);
+        toHomePage(e);
+    }
 }

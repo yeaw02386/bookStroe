@@ -47,7 +47,7 @@
       </Group>
       <Group fx:id="admin_G" layoutX="974.0" layoutY="53.0">
          <children>
-            <Rectangle arcHeight="20.0" arcWidth="5.0" fill="#e9a178" height="266.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="272.0" />
+            <Rectangle arcHeight="20.0" arcWidth="5.0" fill="#e9a178" height="352.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="272.0" />
             <Button fx:id="add_book_B" alignment="CENTER" layoutX="89.0" layoutY="185.0" mnemonicParsing="false" onAction="#addMoreBook" prefHeight="43.0" prefWidth="94.0" style="-fx-background-color: #b46060;" text="Add" textFill="WHITE">
                <font>
                   <Font size="22.0" />
@@ -83,6 +83,11 @@
                   <Font size="15.0" />
                </font>
             </Label>
+            <Button fx:id="del_B" alignment="CENTER" layoutX="53.0" layoutY="285.0" mnemonicParsing="false" onAction="#delBook" prefHeight="46.0" prefWidth="167.0" style="-fx-background-color: #b46060;" text="Delete Book" textFill="WHITE">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Button>
          </children>
       </Group>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#b46060" height="720.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="279.0" />
